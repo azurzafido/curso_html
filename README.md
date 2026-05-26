@@ -186,3 +186,22 @@ Bienvenido<br>
 a HTML
 </p>
 ```
+##### -----------------------------------------------------------------
+
+# css  (cascading style sheet)
+
+cascada de hojas de estilo, es el documento que nos permite darle estilo a nuestro elemento, precionar,escalar,color
+y transciciones.
+
+## como aplicar de css a nuestro documento html
+### 1. en linea
+este manera de aplicar css es asiendo uso de los atributos de un elemento en este caso en especial usando el ayributo 'style'
+<p style="color:pink;font-size:23px">este es el texto</p>
+
+
+> [!TIP] en el caso de los embebidos y los de archivo externo hay que entender sobre selectores: son amnera de como yo identifico un elemento dentro de un documento html, selector por etiqueta, id y clase, en el diselo web se recomienda solo usar los selectores de tipo clase 
+
+
+### 2. embebidos
+este tipo de aplicar estilos nos permite hacer uso de etiqueta style para poder estilar nuestro elemento, por convencion esta etiqueta al ser de configuracion se debe usar en 
+### 3. archivo externo 
