@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color:#040714;
+            font-family:Arial, Helvetica, sans-serif;
+            color:white;
+        }
+
+        header{
+            background-color:#090b13;
+            padding:20px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            font-size:35px;
+            font-weight:bold;
+            color:#00A8E1;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        .banner{
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        .banner h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        .banner p{
+            font-size:20px;
+            margin-bottom:30px;
+        }
+
+        .banner button{
+            background-color:#0063e5;
+            color:white;
+            border:none;
+            padding:15px 30px;
+            font-size:18px;
+            border-radius:5px;
+        }
+
+        .peliculas{
+            padding:40px;
+        }
+
+        .peliculas h2{
+            margin-bottom:20px;
+            text-align:center;
+        }
+
+        .contenedor{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background-color:#111826;
+            padding:10px;
+            border-radius:10px;
+            width:220px;
+            text-align:center;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .card p{
+            margin-top:10px;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background-color:#090b13;
+            margin-top:40px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">Disney+</div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Películas</a>
+            <a href="#">Series</a>
+            <a href="#">Mi Lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Bienvenido a Disney+</h1>
+
+        <p>Disfruta películas, series y contenido exclusivo.</p>
+
+        <button>Suscribirse</button>
+    </section>
+
+    <section class="peliculas">
+
+        <h2>Películas Destacadas</h2>
+
+        <div class="contenedor">
+
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+                <p>Avengers Endgame</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/p_thelionking2019_19752_1_0b9de87b.jpeg" alt="">
+                <p>El Rey León</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b7f0b.jpeg" alt="">
+                <p>Frozen 2</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/p_toystory4_19639_917ad716.jpeg" alt="">
+                <p>Toy Story 4</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Trabajo realizado en Visual Studio Code - Disney+</p>
+    </footer>
+
+</body>
+</html>
