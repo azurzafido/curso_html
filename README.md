@@ -195,7 +195,7 @@ y transciciones.
 
 ## como aplicar de css a nuestro documento html
 ### 1. en linea
-este manera de aplicar css es asiendo uso de los atributos de un elemento en este caso en especial usando el ayributo 'style'
+este manera de aplicar css es asiendo uso de los atributos de un elemento en este caso en especial usando el ayributo `style`
 <p style="color:pink;font-size:23px">este es el texto</p>
 
 
@@ -205,3 +205,4 @@ este manera de aplicar css es asiendo uso de los atributos de un elemento en est
 ### 2. embebidos
 este tipo de aplicar estilos nos permite hacer uso de etiqueta style para poder estilar nuestro elemento, por convencion esta etiqueta al ser de configuracion se debe usar en 
 ### 3. archivo externo 
+es la manera correcta y la ams usada para aplicar estilos dentro de un documento html, para asociar un archivo externos lo tenemos que hacer en nuestra etiqueta de configuracion `head` , asiendo uso de la etiqueta `link` atraves de su atributo `href` ene este atributo le indicamos la ruta del archivo a asociar . 

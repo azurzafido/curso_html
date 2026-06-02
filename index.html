@@ -1,20 +1,44 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 
-   <html>
-      <head>
-         <title>fido</title>
-         <style>
-             .color-rojo{
-                 color:red;
-             }
-             .fuente{
-               font-size: 50px
-             }
-         </style>
-      </head>
-      <body>
-         <p style="color:#00E9F7";font-size:40px;
-         font-weight: 600;>"hola alumnitos <b>inteligentes</b></p>
-         <p class="color-rojo fuente">esto es otro estilo</p>
-      </body>
-   </html>
+<html>
+   <head>
+      <title>fido</title>
+      <style>
+         /* en esta seccion estoy asiendo el uso de los selectores de tipo clase */
+         .color-rojo{
+             color:red;
+         }
+
+         .fuente{
+            font-size: 50px;
+         }
+
+         /* aqui aplicamos el selector de tipo nombre o etiqueta */
+         span{
+            background: yellowgreen;
+         }
+
+         h1{
+            background: red;
+         }
+      </style>
+   </head>
+
+   <body>
+      <!-- en esta linea de codigo estoy aplicando estilos de tipo linea por
+      que en la misma etiqueta usando un atributo aplica los estilos -->
+
+      <p style="color:#00E9F7; font-size:40px; font-weight:600;">
+         Hola Alumnitos <b>Inteligentes</b>
+      </p>
+
+      <p class="color-rojo fuente">
+         esto es otro estilo
+      </p>
+
+      <span>soy span y no tengo estilo</span>
+
+      <h1>hola</h1>
+
+   </body>
+</html>
